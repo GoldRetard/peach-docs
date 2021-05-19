@@ -1,10 +1,10 @@
 # Project information
 site_name: Peach
-site_description: Личный блог GFenixL#6222
+site_description: Доки peach 😎
 site_author: GFenixL
-site_url: https://test.clinton-bot.ml
+site_url: https://gfenixl.github.io/peach-docs
 docs_dir: docs
-site_dir: site
+site_dir: book_src
 
 # Copyright
 copyright: Copyright &copy; 2021 GFenixL
