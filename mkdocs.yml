@@ -56,25 +56,60 @@ markdown_extensions:
   - toc:
       permalink: true
 
-#nav:
-#  - 'Введение': index.ru.md
-#  - 'test': test.md
-  
+nav:
+  - 'Введение': index.md
+
+
+extra_css:
+  - css/hint.min.css
 
 
 plugins:
-  - search:
+  - search: # Default
       lang:
         - en
         - ru
+  - print-site: # https://timvink.github.io/mkdocs-print-site-plugin/
+      add_full_urls: false
+      add_to_navigation: false
+      add_table_of_contents: true
+      toc_depth: 2
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+      add_cover_page: true
+      path_to_pdf: "assets/site.pdf"
+  - tooltips # https://roipoussiere.frama.io/mkdocs-tooltips/
+  - section-index # https://oprypin.github.io/mkdocs-section-index/
+  # - tooltipster-links # https://github.com/midnightprioriem/mkdocs-tooltipster-links-plugin
 
-  - i18n:
-      default_language: ru
-      languages:
-        ru: 🇷🇺 Русский
-        en: 🇬🇧 English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  # - i18n:
+  #     default_language: ru
+  #     languages:
+  #       ru: 🇷🇺 Русский
+  #       en: 🇬🇧 English
 
 
 # Custom
-nav_name: "Оглавление"
+# nav_name: "Оглавление"
 
