@@ -71,7 +71,7 @@ plugins:
         - ru
   - print-site: # https://timvink.github.io/mkdocs-print-site-plugin/
       add_full_urls: false
-      add_to_navigation: false
+      add_to_navigation: true
       add_table_of_contents: true
       toc_depth: 2
       add_full_urls: false
