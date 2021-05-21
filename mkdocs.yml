@@ -7,7 +7,7 @@ docs_dir: docs
 site_dir: book_src
 
 # Copyright
-copyright: Copyright &copy; 2021 GFenixL
+copyright: Copyright &copy; 2021 Peach
 
 # Configuration
 theme:
@@ -57,7 +57,8 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - 'Введение': index.md
+  - 'Введение': index.md 
+  - 'Обновления': changelogs.md
 
 
 extra_css:
