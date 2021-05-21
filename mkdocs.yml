@@ -62,6 +62,10 @@ nav:
 
 extra_css:
   - css/hint.min.css
+  
+  
+#markdown_extensions:
+#  - attr_list
 
 
 plugins:
